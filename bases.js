@@ -43,3 +43,16 @@ let myClass = new MyClass("Male", 15)
 console.log(myClass)
 console.log("-------")
 console.log(myClass.age)
+
+
+// Enum
+const MyEnum = {
+    DART : "Dart", 
+    JAVASCRIPT : "Javascript",
+    PYTHON : "Python",
+    JAVA : "Java",
+    ANGULAR : "Angular"
+}
+
+const myEnum =  MyEnum.ANGULAR
+console.log(myEnum)
